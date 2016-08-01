@@ -1,4 +1,5 @@
 FROM golang:latest
+MAINTAINER bhaavanmerchant@gmail.com
 
 RUN apt-get -y update && apt-get install -y openjdk-7-jre-headless
 
